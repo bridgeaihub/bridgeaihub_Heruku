@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="google-site-verification" content="iBhcYcVzmi5FN76hoGdsH5dxXZGetHt_dx_GHbXlh7g" />
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+    <title>Bridge AIHub</title>
+
+    <!-- <link href="https://fonts.googleapis.com/css2?family=Mada:wght@200;300;400;500;600;700;900&display=swap" rel="stylesheet"> -->
+    <link rel="stylesheet" href="{{ url_for('static', filename = 'assets/css/bootstrap.min.css')}}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css">
+
+
+    <link rel="stylesheet" href="{{ url_for('static', filename = 'assets/css/dropzone.min.css')}}">
+
+
+    <link rel="stylesheet" href="{{ url_for('static', filename = 'assets/dist/style.css')}}">
+
+    <link rel="shortcut icon" href="{{ url_for('static', filename = 'assets/img/bridge_favicon.png')}}" type="image/x-icon">
+
+</head>
+
+
+<body>
+
+    <style>
+        body {
+            background: #fff;
+        }
+    </style>
+
+    <a href="#" id="scroll" style="display: none;"> 
+        <i class="fas fa-arrow-up"></i>
+    </a>
+    <!-- <a href="https://wa.me/+918075779439" class="whatsapp-float" target="_blank">
+        <i class="fab fa-whatsapp whatsapp-float--icon"></i>
+    </a> -->
+    <main>
+
+
+        <nav class="land-nav" id="land-nav">
+            <div class="container">
+                <div class="land-nav__content">
+                    <div class="overlay hidden"></div>
+                    <div class="land-nav__menu ">
+                        <div class="hamburger" id="hamburger-1">
+                            <div class="line"></div>
+                            <div class="line"></div>
+                            <div class="line"></div>
+                        </div>
+                    </div>
+                    <div class="land-nav__logo land-nav__logo--1">
+                        <img src="{{ url_for('static', filename = 'assets/img/logo_l_white.png')}}" alt="logo__nav">
+                    </div>
+                    <div class="land-nav__logo land-nav__logo--2">
+                        <img src="{{ url_for('static', filename = 'assets/img/logo_l.png')}}" alt="logo__nav">
+                    </div>
+                    <ul class="land-nav__ul">
+                        <li>
+                        </li>
+                        <li>
+    
+                        </li>
+                        <li>
+                            <a href="contact">
+                                Contact US
+                            </a>
+                        </li>
+                    </ul>
+                    
+                </div>
+            </div>
+        </nav>
+
+        <section class="land-header land-header--breadcrumb">
+            <div class="container">
+                <div class="col-lg-12 col-md-12 col-12 land-header__content" data-aos="fade-right">
+                    <h1 class="land-header__title"> About us
+                    </h1>
+                    <h5 class="land-header__sub-title">
+                        We are a stealth startup building something amazing
+                    </h5>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- --about-us-- -->
+        <section class="about section-padding" id="about">
+            <div class="container">
+                <div class="row align-items-center justify-content-between">
+
+                    <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+                        <div class="about__content">
+                            <!-- <span class="heading__tag heading__tag--transparent">About us</span> -->
+                            <h2 class="heading__primary heading__primary--about">About BridgeAiHub</h2>
+                            <p class="paragraph">At Bridge, we are working to create a community where AI models can be
+                                shared freely with anyone who wants to use them, regardless of their technical
+                                expertise. Our open-source platform paired with User interface building library will
+                                enable anyone who wishes to implement AI in their daily life, research, and business to
+                                do so with drag and drop simplicity. We realized that though AI is ubiquitous, most
+                                people are unable to apply it due to the skills barrier that exists. To implement AI
+                                models, users need to have a baseline level of coding knowledge. This prevents many from
+                                ever being able to access AI unless they consult someone with the needed expertise,
+                                which is often costly. Our solution to this problem is an open-source platform where
+                                developers of AI models can publish their models, and users can implement these models
+                                completely online without needing to write any code.
+                            </p>
+                           
+
+                        </div>
+                    </div>
+
+                    <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+                        <div class="about__img-part">
+                            <img src="{{ url_for('static', filename = 'assets/img/hero-device.png')}}" alt="" class="about__img">
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- -x-about-us-x- -->
+        <!-- Timeline -->
+        <section class="timeline section-padding">
+            <div class="heading-text-box">
+                <h1>Our
+                    <span>
+                        Story
+                    </span>
+                    <div class="separator"><span></span></div>
+
+                </h1>
+            </div>
+            <ul>
+                <li>
+                    <div>
+                        <time>March 2022</time>
+                        Both co-founders met each other at startup games competition
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <time>March 2022</time>
+                        started with an idea called bridge healthcare , but made a pivot after our first
+                        set of customer discovery to Bridge.AI
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <time>April 2022</time>
+                        Startup idea got qualified for university of iowa startup accilarator
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <time>April 2022</time> Our first funding came through the accilator 😎
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <time>April 2022</time> Our first one million cups presentation 😍
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <time>Jan 2023</time> Excited to start our journey with builders &
+                        backers startup accilerator
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <time></time> Jouney continues ....
+                    </div>
+                </li>
+
+            </ul>
+        </section>
+        <!-- Timeline -->
+
+        <!-- --our team -->
+
+        <section class="team section-padding">
+            <div class="heading-text-box">
+                <h1>Our
+                    <span>
+                        Team
+                    </span>
+                    <div class="separator"><span></span></div>
+                </h1>
+            </div>
+            <div class="container">
+                <ul class="list-members">
+                    <li class="member">
+                        <div class="member-image">
+                            <img src="{{ url_for('static', filename = 'assets/img/team_1.jpg')}}">
+                        </div>
+                        <div class="member-info">
+                            <h3>Subin Erattakulangara</h3>
+                            <h4>Director , Cofounder</h4>
+                            <p>Phd scholar, University of Iowa</p>
+                            <div class="social-link">
+                                <a href="https://www.linkedin.com/in/subin-erattakulangara-69b21598/" target="_blank">
+                                    <i class="fab fa-linkedin-in"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="member">
+                        <div class="member-image">
+                            <img src="{{ url_for('static', filename = 'assets/img/team_2.jpg')}}">
+                        </div>
+                        <div class="member-info">
+                            <h3>Aravin Sivamurugan
+                            </h3>
+                            <h4>CEO , Cofounder</h4>
+                            <p>MD Candidate, University of Iowa
+                            </p>
+                            <div class="social-link">
+                                <a href="https://www.linkedin.com/in/aravin-sivamurugan-43ab35a6/" target="_blank">
+                                    <i class="fab fa-linkedin-in"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </li>
+
+                </ul>
+            </div>
+        </section>
+        <!-- --our team -->
+        <section class="team section-padding advisor ">
+            <div class="heading-text-box">
+                <h1>Our <span>
+                        Advisors
+                    </span>
+                    <div class="separator"><span></span></div>
+                </h1>
+            </div>
+            <div class="container">
+                <div class="team__content">
+
+                    <div class="row team-items">
+                        <div class="col-md-3 single-item">
+                            <div class="item">
+                                <div class="thumb">
+                                    <img class="img-fluid" src="{{ url_for('static', filename = 'assets/img/advison-1.jpg')}}" alt="Thumb">
+
+                                </div>
+                                <div class="info">
+
+                                    <h4>Siva Paramasamy</h4>
+                                    <span>Head of Engineering at <br> Wells Fargo Consumer Lending</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 single-item">
+                            <div class="item">
+                                <div class="thumb">
+                                    <img class="img-fluid" src="{{ url_for('static', filename = 'assets/img/advison-2.jpg')}}" alt="Thumb">
+
+                                </div>
+                                <div class="info">
+
+                                    <h4>John Courtney
+                                    </h4>
+                                    <span>Operating partner at <br> INTANDEM CAPITAL LLC
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 single-item">
+                            <div class="item">
+                                <div class="thumb">
+                                    <img class="img-fluid" src="{{ url_for('static', filename = 'assets/img/advison-3.jpg')}}" alt="Thumb">
+
+                                </div>
+                                <div class="info">
+
+                                    <h4>Shamus Roeder
+                                    </h4>
+                                    <span>Senior product manager at <br> Whiterabbit.ai</span>
+                                </div>
+                            </div>
+                        </div>
+<!-- Add the advisors here -->
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        <!-- --our team -->
+
+
+        <div class="footer">
+            <div class="container">
+                <div class="footer__content">
+                    <ul class="footer__social">
+                        <li class="footer__social-item"> <a href="#" > <i class="fab fa-facebook"></i>
+                            </a></li>
+                        <li class="footer__social-item"> <a href="#" > <i class="fab fa-instagram"></i>
+                            </a></li>
+
+                    </ul>
+                    <h2 class="footer__copyright footer__copyright--1"> &copy;
+                        <script>document.write(new Date().getFullYear())</script> Bridge.Ai -
+                        All Rights Reserved
+                    </h2>
+                    <h2 class="footer__copyright footer__copyright--3">
+                        Made with 🤍
+
+                    </h2>
+
+                </div>
+            </div>
+        </div>
+
+
+
+
+    </main>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="{{ url_for('static', filename = 'assets/js/bootstrap.min.js')}}"></script>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
+
+
+
+    <script src="{{ url_for('static', filename = 'assets/js/dropzone.min.js')}}"></script>
+
+    <script src="{{ url_for('static', filename = 'assets/dist/main.js')}}"></script>
+
+
+
+</body>
+
+</html>
