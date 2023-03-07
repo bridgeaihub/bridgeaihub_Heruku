@@ -1,7 +1,5 @@
 from click import command
 from flask import Flask, render_template, request, redirect, url_for, session, flash
-from flask_mysqldb import MySQL
-import MySQLdb.cursors
 import re
 import os
 from werkzeug.utils import secure_filename
@@ -9,15 +7,13 @@ from subprocess import check_output
 import subprocess
 
 app = Flask(__name__)
-app.secret_key = 'sudo'
 
 # Intialize MySQL
-mysql = MySQL(app)
-@app.route('/', methods=['GET','POST'])
+@app.route('/')
 def landing():
     return render_template('about.html')
 
-@app.route('/contact', methods=['GET','POST'])
+@app.route('/contact')
 def contact():
     return render_template('contact.html')
 
